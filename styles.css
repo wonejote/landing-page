@@ -15,7 +15,7 @@ body {
 {   flex: 1 1 auto;
      justify-content: center;
     align-items: center;
-    border: 1px black solid;
+
 }
 
 .header, .footer, .contenido.uno{
@@ -28,8 +28,8 @@ body {
  flex-direction: column;
 background-color: #E5E7EB;
 color:#1F2937;
-font-size: 36px;
-padding: 24px;
+font-size: 32px;
+padding: 64px;
 font-style: italic;
 font-weight: 300;
 }
@@ -108,11 +108,11 @@ button{
 }
 .caja2 img{
     
-    width: 100%;
+    max-width: 40%;
     height: auto;
     object-fit: cover;
     border-radius: 15px;
-    min-width: 40%;
+    min-width: 10%;
     flex-grow: 0;
 }
 .contenido.dos{
@@ -120,15 +120,17 @@ button{
     flex-direction: column;
     justify-content: center;
     margin: 32px;
+    align-items: center;
 
 }
 .caja3{
     display: flex;
-    align-self: center;
+    
     padding: 14px;
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
+    
 
 }
 .caja4{
@@ -142,7 +144,8 @@ button{
     flex-direction: column;
     font-size: 18px;
     color: #1F2937;
-    
+    justify-content: center;
+    align-items: center;
 }
 .elementos img{
     border-radius: 5px;
@@ -152,9 +155,54 @@ button{
     object-fit: cover;
     border-radius: 15px;
     align-self: center;
+    
 
 }
 
 .elementos p{
-    padding: 40px
+    padding: 20px
+}
+.caja5{
+    background-color: #3882f6;
+    margin: 18px 42px;
+    border-radius: 5px;
+    padding: 18px 32px;
+    display: flex;
+    
+}
+.caja5 button 
+{
+    flex: 0 0 auto;
+    padding: 12px 24px;
+    margin-right: 10px;
+    border-color: #F9FAF8;
+    
+    
+}
+
+.mensaje .texto2 
+{
+ color: #F9FAF8;
+ font-size: 24px;
+ font-weight: 800;
+ 
+}
+
+.mensaje .texto3
+{
+    color: #E5E7EB;
+    font-size: 16px;
+    
+}
+.mensaje{
+    margin-left: 10px;
+}
+
+.footer{
+    display: flex;
+    padding: 16px;
+    flex: 0 0 auto;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
 }
